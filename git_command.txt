@@ -1,0 +1,25 @@
+git --version                                          to see the version of git
+git config --global user.name                          to see the git username
+git config --global user.email                         to see the git useremail
+git init                                               initiate git
+git add "filename"                                     add file to staging 
+git add --all                                          add all files to staging
+git commit -m "message"                                commit staged files with given name
+git commit -a -m "message"                             commit files without staging process
+git log                                                to see git commit history on certain branch
+git "commitname" -help
+
+git branch "branchname"                                to make a new git branch
+git branch                                             to see all git branches  
+git checkout "branchname"                              to go to certain branch 
+
+git checkout -b "branchname"                           to make and go to certain branch
+
+git merge "emergency branchname"                       to merge certain branch to current branch
+
+git branch -d "branchname"                             to delete certain branch
+
+git fetch origin                                       to fetch all changes from origin
+git merge origin/master                                to merge all changes from origin specific branch
+
+git push                                               to push commits to origin default branch
