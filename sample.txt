@@ -5,4 +5,12 @@ Dev commit
 
 Main commit
 
+<<<<<<< HEAD
 
+=======
+test
+
+test2
+
+test3
+>>>>>>> parent of 58fc5c9 (afd)
